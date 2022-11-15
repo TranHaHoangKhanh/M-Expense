@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/activity_setting.xml" value="0.22" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/content_setting.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_about_us.xml" value="0.25" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_calendar.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_calender.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_date_picker.xml" value="0.381025641025641" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_delete_confirm.xml" value="0.381025641025641" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_expense_create.xml" value="0.33" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_expense_list.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_second.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_time_picker.xml" value="0.1875" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_trip_detail.xml" value="0.25" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_trip_list.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_trip_register.xml" value="0.25" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_trip_register_confirm.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_trip_search.xml" value="0.32314814814814813" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/fragment_trip_update.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/list_item_expense.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/list_item_trip.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/layout/menu_in_detail.xml" value="0.3729166666666667" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/menu/menu_in_action.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/menu/menu_in_detail.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/menu/menu_in_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.339" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/Code/M-Expense/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.339" />
+        <entry key="..\:/Assignment Mobile Application Design and Development/app/src/main/res/layout/activity_main.xml" value="0.3729166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

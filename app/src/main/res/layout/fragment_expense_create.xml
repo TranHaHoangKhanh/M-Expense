@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.expense.ExpenseCreateFragment">
+
+    <Spinner
+        android:id="@+id/fmExpenseCreateType"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:contentDescription="@string/label_expense_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/fmExpenseCreateAmount"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/label_expense_amount"
+        android:inputType="number"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/fmExpenseCreateType"
+        app:layout_constraintStart_toStartOf="@+id/fmExpenseCreateType"
+        app:layout_constraintTop_toBottomOf="@+id/fmExpenseCreateType" />
+
+    <LinearLayout
+        android:id="@+id/fmExpenseCreateLinearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/fmExpenseCreateAmount"
+        app:layout_constraintStart_toStartOf="@+id/fmExpenseCreateAmount"
+        app:layout_constraintTop_toBottomOf="@id/fmExpenseCreateAmount">
+
+        <EditText
+            android:id="@+id/fmExpenseCreateDate"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/label_expense_date"
+            android:inputType="date"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/fmExpenseCreateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/label_expense_time"
+            android:inputType="textPersonName|time"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/fmExpenseCreateComment"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/label_expense_comment"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/fmExpenseCreateLinearLayout"
+        app:layout_constraintStart_toStartOf="@+id/fmExpenseCreateLinearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/fmExpenseCreateLinearLayout" />
+
+    <Button
+        android:id="@+id/fmExpenseCreateButtonCancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/scarlet"
+        android:text="@string/label_expense_cancel_button"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/fmExpenseCreateComment"
+        app:layout_constraintTop_toBottomOf="@+id/fmExpenseCreateComment"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/fmExpenseCreateButtonAdd"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:backgroundTint="@color/lime"
+        android:text="@string/label_expense_add_expense_button"
+        android:textColor="#616161"
+        app:layout_constraintBottom_toBottomOf="@+id/fmExpenseCreateButtonCancel"
+        app:layout_constraintEnd_toEndOf="@+id/fmExpenseCreateComment"
+        app:layout_constraintStart_toEndOf="@+id/fmExpenseCreateButtonCancel"
+        app:layout_constraintTop_toTopOf="@+id/fmExpenseCreateButtonCancel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
